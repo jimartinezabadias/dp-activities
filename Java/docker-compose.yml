@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  java:
+    container_name: design_patterns_activities-java
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      - .:/app:delegated
+    tty: true
+

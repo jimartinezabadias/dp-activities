@@ -1,0 +1,2 @@
+## The build command fails:
+##      - TODO: check tsconfig
